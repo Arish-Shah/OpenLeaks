@@ -1,0 +1,4 @@
+Please use xampp or any other localhost serving platform.
+We use 2 mysql databases
+one for admin login system and another for storing posts information.
+the openleaks.sql is provided import it into the localhost server

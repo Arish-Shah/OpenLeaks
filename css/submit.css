@@ -1,0 +1,183 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+body{
+	background-color: #eff1f6;
+}
+
+/* Navigation Bar CSS */
+nav{
+	top: 0;
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+}
+nav div.logo{
+	padding-left: 10px;
+	display: inline-block;
+	text-align: left;
+	width: 70%;
+}
+nav div.logo img{
+	height: 30px;
+}
+nav div.links{
+	margin-top: 5px;
+	display: inline-block;
+	margin-left: -130px;
+	position: absolute;
+}
+nav div.links a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #336b87;
+}
+.wrapper{
+	display: inline-block;
+	height: 500px;
+	width: 70%;
+	padding-top: 65px;
+	text-align: center;
+}
+
+.right{
+	display: inline-block;
+	text-align: left !important;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+}
+.right h1{
+	color: #414141 !important;
+	padding-left: 100px;
+	padding-top: 30px;
+	text-align: left;
+	font-size: 30px;
+	padding-bottom: 50px;
+	color: black;
+	height: 20px;
+
+}
+.right .files{
+	padding-bottom: 30px;
+	text-align: left;
+	padding-left: 90px;
+}
+.right input{
+	width: 300px;
+	text-align: left;
+	font-size: 13px;
+	padding: 5px 0 5px 10px;
+
+}
+.right table{
+	padding:5px 10px 0px 100px;
+
+}
+.right table tr td{
+	text-align: left;
+
+}
+.right table td{
+	padding-bottom: 10px;
+
+}
+.right table tr td textarea{
+	resize: none;
+	font-size: 12px;
+	text-align: left;
+
+}
+
+
+/* Files */
+.files span{
+	padding-left: 10px;
+	font-size: 13px;
+	cursor: pointer !important;
+	color: #336b87;
+}
+.files span:hover{
+	text-decoration: underline;
+}
+.secondfile, .thirdfile, .fourthfile{
+	display: none;
+}
+
+
+/* The input classes */
+.right table tr td{
+	vertical-align: top;
+	font-size: 14px;
+	font-weight: bold;
+}
+.right table tr td:first-child{
+	padding-right: 20px;
+}
+.right table tr td:last-child{
+	padding-left: 20px;
+}
+.right table tr td input{
+	border-radius: 2px;
+	border: 1px solid #aaa;
+}
+.right table tr td textarea{
+	width: 300px;
+	font-size: 13px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.right table tr td input:focus,  .right table tr td textarea:focus{
+	border-color: #336b87;
+}
+.submitbtn{
+	text-align: left;
+	margin-left: 295px;
+}
+.submitbtn button{
+	border-radius: 2px;
+	padding: 8px 30px;
+	background-image: linear-gradient(#f9f9f9, #e1e1e1);
+	border: 1px solid #aaa;
+	margin-top: 30px;
+	font-weight: bold;
+	color: #333;
+	cursor: pointer;
+}
+.submitbtn button:active{
+	background-image: linear-gradient(#e1e1e1, #f9f9f9);
+}
+
+
+.error{
+	background-color: rgba(255, 0, 0, .1);
+	border-left: 2px solid red;
+	text-align: left;
+	padding: 10px;
+	font-size: 14px;
+	display: inline-block;
+	margin-left: 100px;
+	margin-bottom: 10px;
+	width: 485px;
+}
+.success{
+	background-color: rgba(0, 255, 0, 0.1);
+	border-left: 2px solid green;
+	text-align: left;
+	padding: 10px;
+	font-size: 14px;
+	display: inline-block;
+	margin-left: 100px;
+	margin-bottom: 10px;
+	width: 485px;
+}

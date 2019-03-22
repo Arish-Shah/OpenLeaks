@@ -1,0 +1,190 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+body{
+	background-color: #eff1f6;
+}
+
+/* Navigation Bar CSS */
+nav{
+	z-index: 1000;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+}
+nav div.logo{
+	padding-left: 10px;
+	display: inline-block;
+	text-align: left;
+	width: 70%;
+}
+nav div.logo img{
+	height: 30px;
+}
+nav div.links{
+	margin-top: 5px;
+	display: inline-block;
+	margin-left: -130px;
+	position: absolute;
+}
+nav div.links a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #336b87;
+}
+.wrapper{
+	display: inline-block;
+	height: 500px;
+	width: 70%;
+	padding-top: 65px;
+	text-align: center;
+}
+
+.right{
+	display: inline-block;
+	text-align: left !important;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+}
+.right h1{
+	color: #414141 !important;
+	padding-left: 100px;
+	padding-top: 30px;
+	text-align: left;
+	font-size: 30px;
+	padding-bottom: 20px;
+	color: black;
+	height: 20px;
+	}
+
+/* User Error */
+.error{
+	border-left: 2px solid red;
+	padding: 10px;
+	width: 500px;
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 100px;
+	background-color: rgba(255, 0, 0, .1);
+}
+.right form{
+	margin-top: 20px;
+}
+.right form input{
+	border-radius: 4px;
+	width: 350px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	display: block;
+	text-align: left;
+	padding-left: 10px;
+	height: 32px;
+	border: 1px solid #ccc;
+}
+.right form input:focus{
+	border-color: #336b87;
+}
+.right form button{
+	display: block;
+	margin-left: 100px;
+	background-color: #336b87;
+	color: #fff;
+	border: none;
+	padding: 8px 20px;
+	font-weight: bold;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.right form button:active{
+	background-color: #234a5e;
+}
+
+/* The Logged in user information */
+.right h1 button{
+	background-color: #336b87;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	padding: 5px 10px 7px 10px;
+	font-size: 14px;
+	float: right;
+	margin-right: 30px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.right h1 button:active{
+	background-color: #234a5e;
+}
+
+.help-text{
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 40px 0 5px 100px;
+	color: #333;
+}
+
+/* Search Reasults */
+.post-results{
+	padding-top: 30px;
+	padding-left: 100px;
+}
+.post-title{
+	text-align: left;
+}
+.post-title a{
+	color: #1a0dab;
+	font-size: 14px;
+	text-decoration: none;
+}
+.post-title a:hover{
+	text-decoration: underline;
+}
+.post-date{
+	color: #006621;
+	text-align: left;
+}
+.post-description{
+	padding-right: 200px;
+	color: #545454;
+	text-align: left;
+}
+.post-buttons{
+	text-align: right;
+	width: 630px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc; 
+	padding-bottom: 10px;
+}
+.post-buttons button.remove{
+	margin-top: 10px;
+	cursor: pointer;
+	background: transparent;
+	color: #336b87;
+	border: none;
+	margin-right: 10px;
+	font-size: 14px;
+}
+.post-buttons button.verify{
+	margin-top: 10px;
+	cursor: pointer;
+	border: 1px solid #336b87;
+	color: #fff;
+	background-color: #336b87;
+	padding: 5px 10px;
+	border-radius: 3px;
+
+}
